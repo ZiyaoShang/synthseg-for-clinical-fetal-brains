@@ -5,10 +5,14 @@ This is the code repo to our [paper](https://arxiv.org/abs/2504.10244).
 
 Our experiments can be run through the scripts located in [scripts/fetal_scripts](https://github.com/ZiyaoShang/synthseg-for-clinical-fetal-brains/tree/main/scripts/fetal_scripts). Detailed instructions and documentations can be found in the respective code files:
 
-`feature_extractor.py`: Generate the sampling weights when using FeTA_train for training. 
+`feature_extractor.py`: Generate the sampling weights when using FeTA_train for training.
+
 `feature_extractor_dhcp.py`: Generate the sampling weights when using both FeTA_train and dHCP_fetal_train for training.
+
 `fetal_helpers.py`: Preprocessing and postprocessing helpers for the training and testing datasets.
+
 `train_and_validate_ours.py`: Train network and select the checkpoint to be applied to the testing data. 
+
 `predict_and_merge_ours.py`: Predict using multiple models and merge the results into a final segmentation map.  
 
 ## Citation
